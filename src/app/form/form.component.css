@@ -1,0 +1,32 @@
+input{
+    width: 190px;
+    border: 1.4px solid darkslategrey;
+    border-radius: 4px;
+    margin: 5px;
+    margin-top: 35px;
+    height: 20px;
+}
+button{
+    width: 80px;
+    border: 1.4px solid darkslategrey;
+    border-radius: 4px;
+    margin-top: 25px;
+    height: 25px;
+    background-color: transparent;
+}
+
+button:hover{
+background-color: rgb(117, 151, 151);
+color: aliceblue;
+
+}
+
+form{
+    text-align: center;
+    align-items: center;
+    border: 2px dotted darkslategrey;
+    border-radius: 10px;
+    height: 230px;
+    width: 250px;
+}
+

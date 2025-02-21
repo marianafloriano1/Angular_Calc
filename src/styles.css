@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+h1{
+    background-color: darkslategrey ;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
