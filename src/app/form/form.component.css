@@ -1,18 +1,24 @@
 input{
-    width: 190px;
+    width: 290px;
     border: 1.4px solid darkslategrey;
     border-radius: 4px;
     margin: 5px;
     margin-top: 35px;
     height: 20px;
 }
+
+label{
+    display: block;
+    margin-top: -5px;
+}
+
 button{
-    width: 80px;
+    width: 100px;
     border: 1.4px solid darkslategrey;
     border-radius: 4px;
-    margin-top: 25px;
     height: 25px;
     background-color: transparent;
+    margin: 9px
 }
 
 button:hover{
@@ -26,7 +32,19 @@ form{
     align-items: center;
     border: 2px dotted darkslategrey;
     border-radius: 10px;
-    height: 230px;
+    height: 330px;
+    width: 350px;
+    justify-content: center;
+}
+
+p{
+    background-color: darkslategrey ;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2px;
     width: 250px;
+    justify-content: center;
+    margin-left: 50px;
+    height: 20px
 }
 

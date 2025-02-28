@@ -1,7 +1,13 @@
 <form>
 
-    <input>
-    <input>
-    <button>Somar</button>
-    <label></label>
+    <input type = "number" [(ngModel)] = "num1"          name ="num1">
+    <input type = "number"  [(ngModel)] = "num2"         name ="num2">
+    <button (click) = "onClickSomar()">Somar</button>
+    <button (click) = "onClickSubtrair()">Subtrair</button>
+    <button (click) = "onClickDividir()">Dividir</button>
+    <button (click) = "onClickMult()">Multiplicar</button>
+    <button (click) = "onClickPoten()">Potenciar</button>
+    <button (click) = "onClickMod()">Modúlo </button>
+    <p>Resultado:</p>
+    <label> {{sun}} </label>
 </form>
